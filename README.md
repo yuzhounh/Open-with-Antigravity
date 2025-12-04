@@ -21,7 +21,7 @@ This project provides **five different installation methods**. Choose the one th
 1. **Modify Configuration**: Open the `.reg` file and replace `<YourUsername>` with your Windows username
 2. **Install**:
    - **English**: Double-click `install-open-with-Antigravity.reg`
-   - **Chinese**: Double-click `install-open-with-Antigravity-zh.reg`
+   - **Chinese**: Double-click `install-open-with-Antigravity-zh.reg` (UTF-16 LE encoded)
 3. Click "Yes" when Windows asks for confirmation
 4. Restart File Explorer or log out and back in
 
