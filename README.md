@@ -114,5 +114,5 @@ Special thanks to [Ryan Johnson](https://github.com/AMDphreak) for his original 
 
 Jing Wang - wangjing@xynu.edu.cn
 
-Project Link: https://github.com/yuzhounh/Open-with-Antigravity-by-reg
+Project Link: https://github.com/yuzhounh/Open-with-Antigravity
 
