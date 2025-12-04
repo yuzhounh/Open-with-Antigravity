@@ -42,6 +42,9 @@ If you prefer to manually edit the registry:
 
 
 ## Related Projects
+
+- [Open-with-Cursor](https://github.com/yuzhounh/Open-with-Cursor) - Add Cursor editor options to the Windows context menu for files, folders, and folder backgrounds.
+
 - [Open with Cursor in Context Menu](https://github.com/Puliczek/open-with-cursor-context-menu) - A similar project that uses PowerShell scripts to achieve similar functionality.
 
 - [cursor_ext_open-with-cursor-context-menu](https://github.com/eatcosmos/cursor_ext_open-with-cursor-context-menu) - A fork of the above project that adds a batch file for easy installation with a double-click.
@@ -52,9 +55,13 @@ If you prefer to manually edit the registry:
 
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](LICENSE) file for details.
 
+## Acknowledgments
+
+Special thanks to [Ryan Johnson](https://github.com/AMDphreak) for his original contribution. This project is entirely based on his work. I only replaced the relative paths with absolute paths and conducted feasibility testing.
+
 ## Contact
 
 Jing Wang - wangjing@xynu.edu.cn
 
-Project Link: https://github.com/yuzhounh/Open-with-Cursor
+Project Link: https://github.com/yuzhounh/Open-with-Cursor-by-reg
 
