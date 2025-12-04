@@ -1,0 +1,7 @@
+﻿Windows Registry Editor Version 5.00
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\Antigravity]
+
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\Antigravity]
+
+[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Antigravity]

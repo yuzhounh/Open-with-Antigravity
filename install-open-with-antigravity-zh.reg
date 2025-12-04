@@ -1,0 +1,22 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Antigravity]
+@="通过 Antigravity 打开"
+"Icon"="C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity\\Antigravity.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Antigravity\command]
+@="\"C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity\\Antigravity.exe\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Antigravity]
+@="通过 Antigravity 打开"
+"Icon"="C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity\\Antigravity.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Antigravity\command]
+@="\"C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity\\Antigravity.exe\" \"%V\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Antigravity]
+@="通过 Antigravity 打开"
+"Icon"="C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity\\Antigravity.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Antigravity\command]
+@="\"C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity\\Antigravity.exe\" \"%V\""
