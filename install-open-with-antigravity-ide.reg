@@ -1,0 +1,22 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Antigravity IDE]
+@="Open with Antigravity IDE"
+"Icon"="C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity IDE\\Antigravity IDE.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Antigravity IDE\command]
+@="\"C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity IDE\\Antigravity IDE.exe\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Antigravity IDE]
+@="Open with Antigravity IDE"
+"Icon"="C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity IDE\\Antigravity IDE.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Antigravity IDE\command]
+@="\"C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity IDE\\Antigravity IDE.exe\" \"%V\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Antigravity IDE]
+@="Open with Antigravity IDE"
+"Icon"="C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity IDE\\Antigravity IDE.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Antigravity IDE\command]
+@="\"C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity IDE\\Antigravity IDE.exe\" \"%V\""
