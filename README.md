@@ -1,4 +1,6 @@
-﻿# Open with Antigravity - Context Menu Integration
+# Open with Antigravity - Context Menu Integration
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-D4A017.svg)](LICENSE)
 
 This project adds Antigravity editor options to the Windows context menu for files, folders, and folder backgrounds by modifying the Windows registry.
 
@@ -8,24 +10,26 @@ This project adds Antigravity editor options to the Windows context menu for fil
 - Adds "通过 Antigravity 打开" option for Chinese language users
 - No administrator privileges required
 - User-specific installation (affects only current user)
-- Works on work laptops and corporate environments
+- Uses current-user registry entries; availability on managed devices depends on local policies
 
 ## Installation Methods
+
+All methods target Windows and require Antigravity to be installed first. Download or clone this repository before following the steps below. The Python installer looks for `%LOCALAPPDATA%\Programs\Antigravity\Antigravity.exe`; adjust the paths in your chosen installer if your installation differs.
 
 This project provides **five different installation methods**. Choose the one that best suits your needs:
 
 ### Method 1: Registry Files (No Admin Required) ⭐ Recommended
 
-**Advantages**: User-specific, no administrator privileges required, works in corporate environments
+**Advantages**: User-specific, no administrator privileges required, paths can be edited before import
 
-1. **Modify Configuration**: Open the `.reg` file and replace `<YourUsername>` with your Windows username
-2. **Install**:
-   - **English**: Double-click `install-open-with-Antigravity.reg`
-   - **Chinese**: Double-click `install-open-with-Antigravity-zh.reg` (UTF-16 LE encoded)
+1. **Modify Configuration**: Open the `.reg` file and replace every `<YourUsername>` with your Windows profile folder name. Check every executable path and preserve doubled backslashes when editing it.
+2. **Install one variant**:
+   - **English**: Double-click `install-open-with-antigravity.reg`
+   - **Chinese**: Double-click `install-open-with-antigravity-zh.reg` (UTF-16 LE encoded)
 3. Click "Yes" when Windows asks for confirmation
 4. Restart File Explorer or log out and back in
 
-**Uninstall**: Double-click `uninstall-open-with-Antigravity.reg`
+**Uninstall**: Double-click `uninstall-open-with-antigravity.reg`
 
 **Note:** Uses `HKEY_CURRENT_USER` instead of `HKEY_CLASSES_ROOT`
 
@@ -40,14 +44,14 @@ The script will automatically detect your system language.
 
 ### Method 3: Batch Script (No Admin Required)
 
-**Advantages**: Simple and straightforward, works on all Windows versions
+**Advantages**: Simple and straightforward, no Python installation required
 
 1. **Install**: Double-click `install-open-with-antigravity.bat`
 2. **Uninstall**: Double-click `uninstall-open-with-antigravity.bat`
 
 ### Method 4: Python Script (No Admin Required)
 
-**Advantages**: Cross-platform compatibility, easy to customize
+**Advantages**: Editable Python source, easy to customize for a Windows installation
 
 **Prerequisites**: Python 3.x installed
 
@@ -66,9 +70,9 @@ The script will automatically detect your system language.
 ## Files
 
 ### Registry Files
-- `install-open-with-Antigravity.reg` - Install (English, no admin)
-- `install-open-with-Antigravity-zh.reg` - Install (Chinese, no admin)
-- `uninstall-open-with-Antigravity.reg` - Uninstall (both languages)
+- `install-open-with-antigravity.reg` - Install (English, no admin)
+- `install-open-with-antigravity-zh.reg` - Install (Chinese, no admin)
+- `uninstall-open-with-antigravity.reg` - Uninstall (both languages)
 
 ### PowerShell Scripts
 - `install-open-with-antigravity.ps1` - Install (auto-detect language)
@@ -97,14 +101,14 @@ If you prefer to manually edit the registry:
 
 ## Related Projects
 
-- [Open-with-Cursor](https://github.com/yuzhounh/Open-with-Cursor) - Add Cursor editor options to the Windows context menu for files, folders, and folder backgrounds.
+- [Open-with-Cursor](https://github.com/yuzhounh/Open-with-Cursor) - A separate Cursor context-menu installer using Python/EXE files and administrator privileges.
 
-- [Open-with-Cursor-by-reg](https://github.com/yuzhounh/Open-with-Cursor-by-reg) - Add Cursor editor options to the Windows context menu for files, folders, and folder backgrounds.
+- [Open-with-Cursor-by-reg](https://github.com/yuzhounh/Open-with-Cursor-by-reg) - The per-user `.reg` alternative for Cursor. These Cursor tools are adjacent projects and are not required by the Antigravity installer.
 
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
