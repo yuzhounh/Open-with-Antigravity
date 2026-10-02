@@ -1,6 +1,16 @@
-# Open with Antigravity - Context Menu Integration
+# Open with Antigravity
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-D4A017.svg)](LICENSE)
+> Add Antigravity to the Windows context menu with a per-user installation.
+
+<p>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-f59e0b?style=flat" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/Platform-Windows-0078d4?style=flat" alt="Platform: Windows">
+  <img src="https://img.shields.io/badge/PowerShell-Windows-5391fe?style=flat" alt="PowerShell: Windows">
+</p>
+
+<p>
+  <a href="#installation-methods">Get started</a> · <a href="LICENSE">License</a> · <a href="README_zh-CN.md">中文说明</a>
+</p>
 
 This project adds Antigravity editor options to the Windows context menu for files, folders, and folder backgrounds by modifying the Windows registry.
 
